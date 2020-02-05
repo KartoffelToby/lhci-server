@@ -5,5 +5,5 @@ COPY package.json .
 COPY lighthouserc.json .
 RUN npm install
 VOLUME /data
-EXPOSE 9001
+EXPOSE 9042
 CMD [ "npm", "start" ]
